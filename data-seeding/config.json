@@ -1,0 +1,91 @@
+{
+  "search_topics": [
+    {
+      "name": "heat_pump",
+      "query": "heat pump",
+      "max_patents": 150
+    },
+    {
+      "name": "heat_exchanger",
+      "query": "heat exchanger",
+      "max_patents": 150
+    },
+    {
+      "name": "heat_interface_unit",
+      "query": "heat interface unit",
+      "max_patents": 80
+    },
+    {
+      "name": "heat_network",
+      "query": "heat network",
+      "max_patents": 100
+    },
+    {
+      "name": "district_heating",
+      "query": "district heating",
+      "max_patents": 100
+    },
+    {
+      "name": "combined_heat_power",
+      "query": "combined heat and power",
+      "max_patents": 100
+    },
+    {
+      "name": "cogeneration",
+      "query": "cogeneration",
+      "max_patents": 100
+    },
+    {
+      "name": "turbine",
+      "query": "turbine",
+      "max_patents": 150
+    },
+    {
+      "name": "gas_turbine",
+      "query": "gas turbine",
+      "max_patents": 100
+    },
+    {
+      "name": "agricultural_robot",
+      "query": "agricultural robot",
+      "max_patents": 100
+    },
+    {
+      "name": "farming_automation",
+      "query": "farming automation",
+      "max_patents": 80
+    },
+    {
+      "name": "warehouse_robot",
+      "query": "warehouse robot",
+      "max_patents": 120
+    },
+    {
+      "name": "autonomous_mobile_robot",
+      "query": "autonomous mobile robot",
+      "max_patents": 120
+    },
+    {
+      "name": "robotic_manipulation",
+      "query": "robotic manipulation",
+      "max_patents": 100
+    },
+    {
+      "name": "robot_gripper",
+      "query": "robot gripper",
+      "max_patents": 100
+    }
+  ],
+  "api": {
+    "base_url": "https://search.patentsview.org/api/v1",
+    "rate_limit_per_minute": 45,
+    "min_patent_date": "2023-01-01"
+  },
+  "database": {
+    "host": "localhost",
+    "port": 5432,
+    "database": "patent_db",
+    "user": "patent_user",
+    "password": "patent_password"
+  }
+}
